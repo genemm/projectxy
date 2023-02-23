@@ -1,0 +1,42 @@
+.container {
+    text-align: center;
+}
+
+.button {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #e6e6e3;
+    background: green;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    color: green;
+    background: #e6e6e3;
+}
+
+.form_group {
+    margin-bottom: 10px;
+}
+
+.form_group input {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.form_group small {
+    color: green;
+    display: block;
+    text-align: left;
+    padding: 0 15px;
+}
